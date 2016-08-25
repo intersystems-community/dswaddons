@@ -5,6 +5,7 @@ This repository contains several examples of custom widgets for DeepSeeWeb.
 
 To register new type of widget instead of exists one, custom portlet should be created first. 
 Full documentation about portlet creation can be found here: [Creating Portlets for Use in Dashboards](http://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=D2IMP_ch_portlets)
+
 Follow the steps to use portlet as custom widget:
 
 1) Create portlet class in desired namespace. Simplest class can be like this:
