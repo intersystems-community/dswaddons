@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Export generator="Cache" version="25" zv="Cache for UNIX (SUSE Linux Enterprise Server for x86-64) 2015.1 (Build 429U)" ts="2016-08-25 12:08:57">
-<Class name="DSW.CustomPortlet">
-<Super>%DeepSee.Component.Portlet.abstractPortlet</Super>
-<TimeChanged>64155,42986.997416</TimeChanged>
-<TimeCreated>64155,42986.997416</TimeCreated>
-</Class>
-</Export>
