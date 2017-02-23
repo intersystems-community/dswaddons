@@ -1,14 +1,13 @@
+/**
+ * @description World map widget for DeepSeeWeb
+ * @data Column with name "Key" represents Country, Column "Value" should have the value to display
+ * @example SELECT NON EMPTY {%LABEL([Outlet].[H1].[Country].CurrentMember.Properties("Key"),"Key",""),%LABEL([Measures].[Amount Sold],"Value","")} ON 0,NON EMPTY [Outlet].[H1].[Country].Members ON 1 FROM [HOLEFOODS]
+ */
 (function() {
     'use strict';
 
     var MAP_KEY = "custom/world-eckert3";
 
-    /**
-     * Register custom directive for widget
-     * Name of this directive is used in "directive" property of widget definition object
-     * Note that angular directives was written in "camelCase",
-     * whilst actual directive name is "camel-case"
-     */
     angular.module('app')
         // You can inject other DSW services here if needed. Look at /src/services
         .directive('worldMap', ['$parse', '$compile', 'Lang', 'Connector', function($parse, $compile, Lang, Connector) {
